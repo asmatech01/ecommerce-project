@@ -1,0 +1,32 @@
+.Security-sec1-main{
+background-image: url('../../assets//images/Security-banner2.webp');
+height: 70vh;
+margin-top: 30px;
+border-radius: 5px;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: bottom;
+display: flex;
+align-items: center;
+}
+.Security-sec1-main .S-h1{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+.Security-sec3-main{
+   background-image: url('../../assets/images/Security-banner2.jpeg');
+    height: 350px;
+    position: relative;
+    top: 90px;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+}
+.shadow-text{
+    text-shadow: 1px 1px 1px black;
+}

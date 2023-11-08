@@ -1,0 +1,27 @@
+.howtobuy-banner1{
+    background-image: url('../../assets/images/howto-banner1.png');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    color: white;
+    margin-top: 20px;
+    text-shadow: 1px 1px 1px black;
+}
+.howtobuy-banner2{
+    background-image: url('../../assets//images/howto-banner2.png');
+    height: 50vh;
+    top: 90px;
+    position: relative;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    background-position: left;
+}

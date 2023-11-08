@@ -1,0 +1,39 @@
+/* CSS for Helpcenter-sec1-main */
+.Helpcenter-sec1-main {
+    background-image: url('/src/assets/images/HelpCenter-banner1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    color: black;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    position: relative; /* Add this to make it the reference point for absolute positioning */
+    margin-bottom: 100px;
+}
+
+/* CSS for helpcenter-sec1 */
+.helpcenter-sec1 {
+    position: absolute;
+    top: 100%; /* Adjust as needed for vertical positioning */
+    left: 50%; /* Adjust as needed for horizontal positioning */
+    transform: translate(-50%, -50%); /* Center the element both vertically and horizontally */
+    background-color: gainsboro; /* Add background color for the absolute element */
+    width: 70%; /* Adjust width as needed */
+    height: 80px; /* Adjust height as needed */
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+}
+.helpcenter-sec1 input::placeholder {
+    color: black; /* Changes the placeholder text color to a light gray */
+  }
+.Helpcenter-lastsec-main{
+    box-shadow: 1px 1px 1px 1px black;
+}
+@media only screen and (max-width: 650px) {
+    .helpcenter-sec1 {
+        width: 90%; /* Adjust width as needed */
+        height: auto; /* Adjust height as needed */
+    }
+  }

@@ -1,0 +1,15 @@
+.contact-form-main{
+    background-image: url('../../assets/images/Contactus-banner1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 0px;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+}
+.contact-form-main .contact-form-main2{
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+padding-bottom: 20px;
+}

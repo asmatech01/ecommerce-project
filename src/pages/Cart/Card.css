@@ -1,0 +1,15 @@
+@media only screen and (min-width: 1250px) {
+    .media_query {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+.checkout-input{
+    border-radius: 999px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.checkout-input:focus{
+    border-bottom: 1px solid black;
+}
